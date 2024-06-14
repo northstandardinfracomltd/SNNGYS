@@ -11,7 +11,7 @@
     <title>Synergius | Amazon PVD</title>
     <link
       rel="icon"
-      href="https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/faviconutld.png?v=1718372817055"
+      href="https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/Untitled.png?v=1718379935964"
     />
     <link rel="canonical" href="synergius.uk" />
 
@@ -138,7 +138,7 @@ format("opentype");
 }
       
       
-        #popup-container {
+      #popup-container {
         display: none;
         position: fixed;
         top: 50%;
@@ -159,13 +159,13 @@ format("opentype");
       }
 
       #internalpop {
-        background-color: rgb(35, 47, 62);
+        background-color: #fff;
         max-width: 90%;
         width: 500px;
         margin-left: auto;
         margin-right: auto;
-        border-radius: 18px;
-        border: 0px solid transparent;
+        border-radius: 38px;
+        border: none;
         margin-top: 30px;
         margin-bottom: 30px;
         display: block;
@@ -176,9 +176,9 @@ format("opentype");
     margin-top: 10px;
     text-align: center;
     font-size: 20px !important;
-    font-family: "YS5" !important;
+    font-family: "YS1" !important;
     letter-spacing: 0px;
-    color: #fff;
+    color: #000;
     line-height: 40px;
     margin-bottom: 10px;
     cursor: default;
@@ -210,18 +210,17 @@ format("opentype");
         padding: 8px 12px;
         cursor: pointer;
         z-index: 99999999999999999;
-        border: 1px solid rgb(35, 47, 62);
-        background-color: rgb(35, 47, 62);
-        color: #8ac6ff;
+        border: 1px solid #fff;
+        background-color: #fff;
+        color: rgb(1 155 255);
         border-radius: 15px;
         font-size: 20px;
-        padding-left: 1px;
-        padding-right: 1px;
+        padding-left: 10px;
+        padding-right: 10px;
         margin-top: 25px;
         padding-top: 10px;
-        padding-bottom: 0px;
-                margin-bottom: 0px;
-        font-family: "YS5" !important;
+        padding-bottom: 10px;
+        font-family: "YS1" !important;
         height: 42px;
         letter-spacing: -0.3px;
       }
@@ -236,27 +235,27 @@ format("opentype");
         resize: none;
       }
       .gumbtn {
-background: linear-gradient(45deg, #0092f3, #0F79AF);
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    font-family: "YS5" !important;
-    font-weight: 100;
-    letter-spacing: -0.2px;
-    font-size: 22px;
-    border-radius: 18px !important;
-    margin-left: 0px;
-    margin-top: 13px;
-    margin-bottom: 30px;
-    /* height: 52px; */
-    padding-left: 23px;
-    padding-right: 23px;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    width: 90%;
-    max-width: 442px;
-    position: relative;
-    overflow: hidden;
+        background: #f13b92;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        font-family: "YS1" !important;
+        font-weight: 100;
+        letter-spacing: -0.2px;
+        font-size: 20px;
+        border-radius: 100px !important;
+        margin-left: 0px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 52px;
+        padding-left: 23px;
+        padding-right: 23px;
+        padding-top: 12px;
+        padding-bottom: 10px;
+        width: 90%;
+        max-width: 442px;
+             position: relative;
+      overflow: hidden;
       }
       
       
@@ -290,18 +289,18 @@ background: linear-gradient(45deg, #0092f3, #0F79AF);
   
       
       .gumbtn:hover {
-        border: 0px solid #962900;
+        border: 0px solid #f6f8fa;
       }
       .gum {
         margin-top: 15px;
-        background: rgb(35, 47, 62);
-        border: 1px solid #2a3a4d;
-        border-radius: 18px;
+        background: #f6f8fa;
+        border: 1px solid #f6f8fa;
+        border-radius: 100px;
         text-align: left;
-        font-size: 22px !important;
-        font-family: "YS5" !important;
+        font-size: 20px !important;
+        font-family: "YS1" !important;
         letter-spacing: 0px;
-        color: #fff;
+        color: #000;
         line-height: 40px;
         cursor: text;
         width: 90%;
@@ -309,7 +308,7 @@ background: linear-gradient(45deg, #0092f3, #0F79AF);
         padding-left: 20px;
         padding-right: 20px;
         padding-top: 9px;
-        padding-bottom: 10px;
+        padding-bottom: 7px;
         margin-left: auto;
         margin-right: auto;
       }
@@ -346,14 +345,13 @@ background: linear-gradient(45deg, #0092f3, #0F79AF);
       }
 
       .gum::placeholder {
-        color: #fff;
-        font-family: "YS5" !important;
+        color: #757575;
+        font-family: "YS1" !important;
         font-weight: 100;
         letter-spacing: 0px;
         line-height: 40px;
         font-size: 20px;
       }
-      
       
       
         .slideshow-container {
@@ -692,7 +690,7 @@ padding-top: 15px;
         <br> <br> 
       <div id="internalpop">
         <button id="close-btn" onclick="closePopup()">Cancel</button>
-        <p class="popupTXT">How can we help you</p>
+        <p class="popupTXT">Submit your contact details.</p>
         
         <div id="formX">
           <form
@@ -715,14 +713,7 @@ padding-top: 15px;
               placeholder="Phone"
               maxlength="35"
               required
-            />
-            <textarea
-              class="gum gumtxtplus f2"
-              name="demandex"
-              placeholder="Request summary"
-              maxlength="400"
-            ></textarea
-            ><br />
+            /><br />
 
             <button type="submit" class="gumbtn science">Submit</button>
             
@@ -739,7 +730,7 @@ padding-top: 15px;
                     method: "POST",
                     body: data,
                   }).then(() => {
-                    window.location.replace("/290372308287392073");
+                    window.location.replace("/92037203892309");
                   });
                 });
               });
@@ -794,7 +785,7 @@ padding-top: 15px;
                     <div class="slide" style="background-image: url('https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/4-min.jpg?v=1718375695692');">
             <div class="overlay"></div>
 <div class="description-container">
-    <div class="description">Corporate film to present Uno-X, a brand of Reitan Retail</div>
+    <div class="description">Corporate film to present Uno-X Mobility, a branch of Reitan Retail</div>
 </div>
             <div class="buttons">
              <a class="btnstyle" href="https://www.youtube.com/watch?v=lBSg6BgTjG8" target="_blank">Watch</a>
@@ -860,18 +851,7 @@ padding-top: 15px;
       
 
       
-      
-            
-        <div class="slide" style="background-image: url('https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/3-min.jpg?v=1718375694590');">
-            <div class="overlay"></div>
-<div class="description-container">
-    <div class="description">Corporate film to present Uno-X with its professional cycling team</div>
-</div>
-            <div class="buttons">
-             <a class="btnstyle" href="https://cdn.glitch.me/c92c27f8-87b7-47aa-83a3-52578818ce83/SYNERGIUS%20%3A%20Uno-X%20Mobility%202024.mp4?v=1714125682379" target="_blank">Watch</a>
-                <button class="btnstyle2" onclick="nextSlide()">Next</button>
-            </div>
-        </div>
+
       
     </div>
 
@@ -897,14 +877,14 @@ padding-top: 15px;
     let currentSlide = 0;
     const slides = document.querySelectorAll('.slide');
     const descriptions = [
-        "Synergius imagines, produces, and distributes entertainment and corporate video content that conveys emotions to the audience",
-        "Corporate film to present Uno-X, a brand of Reitan Retail",
-        "Corporate film about the journey of an employee at Rema 1000, a brand of Reitan Retail",
-      "Sports documentary S2 with multiple chapters about the Jumbo Visma cycling team for South Fields Banijay and Prime Video",
-      "Sports documentary S1 with multiple chapters about the Jumbo Visma cycling team for South Fields Banijay and Prime Video",
-      "Marketing video to present the partnership between Erreà Sport and Benetton Rugby",
-      "Series of multiple themed educational videos for the Wistia platform",
-      "Corporate film to present Uno-X with its professional cycling team"
+        "Synergius imagines, produces, and distributes entertainment and corporate video content that conveys emotions to the audience.",
+        "Corporate film to present Uno-X Mobility, a branch of Reitan Retail.",
+        "Corporate film about the journey of an employee at Rema 1000, a brand of Reitan Retail.",
+      "Sports documentary S2 with multiple chapters about the Jumbo Visma cycling team for South Fields Banijay and Prime Video.",
+      "Sports documentary S1 with multiple chapters about the Jumbo Visma cycling team for South Fields Banijay and Prime Video.",
+      "Marketing video to present the partnership between Erreà Sport and Benetton Rugby.",
+      "Series of multiple themed educational videos for the Wistia platform.",
+      "Corporate film to present Uno-X with its professional cycling team."
     
     ];
 
